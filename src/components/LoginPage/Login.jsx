@@ -15,6 +15,7 @@ function Login({ onLogin }) {
     document.head.appendChild(link);
   }, []);
 
+  // Hardcoded credentials 
   const hardcodedUsername = 'admin';
   const hardcodedPassword = '123';
 
